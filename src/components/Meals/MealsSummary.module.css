@@ -1,11 +1,8 @@
 .meals-summary {
     width: 50%;
-    margin: -6rem auto;
+    margin: 0 auto;
     position: relative;
-}
-
-.summary-main {
-    position: absolute;
+    top: -6rem;
     background-color: #313131;
     text-align: center;
     border-radius: 1rem;

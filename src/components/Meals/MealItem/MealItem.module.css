@@ -1,0 +1,21 @@
+.meal {
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meal h3 {
+    margin: 0;
+}
+
+.description {
+    font-style: italic;
+}
+
+.price {
+    color: #924912;
+    font-weight: 900;
+}
