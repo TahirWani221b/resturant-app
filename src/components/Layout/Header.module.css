@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #771f08;
+    color: #ffffff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.yourCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    background-color: #3f1200;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+.itemsCounter {
+    background-color: #771f08;
+    border-radius: 1rem;
+    padding: 0rem 0.7rem;
+}
+
+.banner-image {
+    height: 45vh;
+    overflow: hidden;
+}
+
+.banner-image img {
+    width: 100%;
+}
