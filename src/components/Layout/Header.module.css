@@ -30,6 +30,7 @@
     background-color: #3f1200;
     font-size: 0.9rem;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .itemsCounter {

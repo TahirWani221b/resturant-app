@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid #771f08;
+    color: white;
+    background-color: #771f08;
+    cursor: pointer;
+}
+
+.button--alt {
+    color: #771f08;
+    background-color: white;
+}

@@ -3,13 +3,13 @@ import classes from './Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
-function Header() {
+function Header(props) {
     return (
         <>
             <header className={`${classes.header}`}>
                 <div className={`${classes.wrapper}`}>
                     <div className={`${classes.logo}`}>ReactMeals</div>
-                    <div className={`${classes.yourCart}`}>
+                    <div className={`${classes.yourCart}`} onClick={() => props.setShowCart(!props.showCart)}>
                         <FontAwesomeIcon icon={faCartShopping} />
                         <div>Your Cart</div>
                         <div className={`${classes.itemsCounter}`}>0</div>
