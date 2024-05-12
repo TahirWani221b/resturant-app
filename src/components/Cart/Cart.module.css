@@ -6,6 +6,49 @@ ul {
     font-size: 1rem;
 }
 
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #771f08;
+    padding-bottom: 1rem;
+}
+
+.item-details {
+    padding-top: 0.4rem;
+    display: flex;
+    gap: 4rem;
+    font-size: 0.8rem;
+    color: #924912;
+}
+
+.item-quantity {
+    color: #000000;
+    border: 1px solid #cccccc;
+    padding: 0 0.7rem;
+    border-radius: 4px;
+}
+
+.item-quantity-change {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.item-quantity-change button {
+    border: 1px solid #771f08;
+    color: white;
+    background-color: #771f08;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-weight: bold;
+}
+
+.item-quantity-change :first-child {
+    background-color: white;
+    color: #771f08;
+}
+
 .total {
     display: flex;
     justify-content: space-between;
@@ -22,7 +65,7 @@ ul {
     gap: 1rem;
 }
 
-button {
+.actions button {
     border-radius: 1rem;
     padding: 0.5rem 2rem;
     border: 1px solid #771f08;

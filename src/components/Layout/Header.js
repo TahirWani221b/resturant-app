@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import classes from './Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import CartContext from '../../Context/Cart/CartContext';
 
 function Header(props) {
+    const { cartInfo } = useContext(CartContext);
     return (
         <>
             <header className={`${classes.header}`}>
@@ -12,7 +14,7 @@ function Header(props) {
                     <div className={`${classes.yourCart}`} onClick={() => props.setShowCart(!props.showCart)}>
                         <FontAwesomeIcon icon={faCartShopping} />
                         <div>Your Cart</div>
-                        <div className={`${classes.itemsCounter}`}>0</div>
+                        <div className={`${classes.itemsCounter}`}>{cartInfo.totalProducts}</div>
                     </div>
                 </div>
             </header>
